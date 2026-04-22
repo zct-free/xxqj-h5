@@ -1,7 +1,7 @@
 <template>
-  <ArtboardScreen artboard="课堂-听党指挥" />
+  <ClassroomShell active-key="listening" />
 </template>
 
 <script setup>
-import ArtboardScreen from "../../components/ArtboardScreen.vue";
+import ClassroomShell from "./ClassroomShell.vue";
 </script>

@@ -1,7 +1,7 @@
 <template>
-  <ArtboardScreen artboard="课堂-能打胜仗" />
+  <ClassroomShell active-key="victory" />
 </template>
 
 <script setup>
-import ArtboardScreen from "../../components/ArtboardScreen.vue";
+import ClassroomShell from "./ClassroomShell.vue";
 </script>
