@@ -14,4 +14,13 @@ export default defineConfig({
       resolvers: [VantResolver()],
     }),
   ],
+  server: {
+    port: 3000,
+    open: true,
+  },
+  resolve: {
+    alias: {
+      "@": "/src",
+    },
+  },
 });
